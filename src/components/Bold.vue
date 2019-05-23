@@ -22,6 +22,7 @@
 </template>
 
 <script>
+    // Bold Component help to decorate user input
     export default {
         name: "Bold",
         props: {
