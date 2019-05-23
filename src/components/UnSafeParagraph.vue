@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "WeakBold",
+        name: "Paragraph",
         props: {
             value: String,
             tagType: String

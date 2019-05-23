@@ -7,7 +7,7 @@
 <script>
     import Bold from "./Bold.vue";
     export default {
-        name: "SafeBold",
+        name: "SafeParagraph",
         components: {
             Bold
         },

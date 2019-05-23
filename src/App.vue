@@ -5,17 +5,17 @@
         <hr/>
         Output:
         <div>
-            <label>UnSafeBold</label>
-            <UnSafeBold type="strong" :value="message"/>
-            <label>SafeBold</label>
-            <SafeBold type="strong" :value="message"/>
+            <label>UnSafeParagraph</label>
+            <UnSafeParagraph type="strong" :value="message"/>
+            <label>SafeParagraph</label>
+            <SafeParagraph type="strong" :value="message"/>
         </div>
     </div>
 </template>
 
 <script>
-    import UnSafeBold from './components/UnSafeBold.vue'
-    import SafeBold from './components/SafeBold.vue'
+    import UnSafeParagraph from './components/UnSafeParagraph.vue'
+    import SafeParagraph from './components/SafeParagraph.vue'
 
     export default {
         name: 'app',
@@ -25,8 +25,8 @@
             }
         },
         components: {
-            UnSafeBold,
-            SafeBold
+            UnSafeParagraph,
+            SafeParagraph
         }
     }
 </script>

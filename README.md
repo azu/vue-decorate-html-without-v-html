@@ -4,8 +4,8 @@ Demo: Avoid to XSS on decorating for user input.
 
 Visit: <https://vue-decorate-html-without-v-html.netlify.com/>
 
-- [src/components/UnSafeBold.vue](src/components/UnSafeBold.vue) has a vulnerability.
-- [src/components/SafeBold.vue](src/components/SafeBold.vue) is safe implementation, but a bit complex.
+- [src/components/UnSafeParagraph.vue](src/components/UnSafeParagraph.vue) has a vulnerability.
+- [src/components/SafeParagraph.vue](src/components/SafeParagraph.vue) is safe implementation, but a bit complex.
 
 ## XSS vector
 
