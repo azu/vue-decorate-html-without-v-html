@@ -1,5 +1,17 @@
 # vue-decorate-html-without-v-html
 
+Demo: Avoid to XSS on decorating for user input.
+
+Visit: 
+
+- [src/components/UnSafeBold.vue](src/components/UnSafeBold.vue) has a vulnerability.
+- [src/components/SafeBold.vue](src/components/SafeBold.vue) is safe implementation, but a bit complex.
+
+## XSS vector
+
+Input: `<script>alert(1)</script>` 
+
+
 ## Project setup
 ```
 yarn install
